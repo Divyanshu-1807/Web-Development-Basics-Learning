@@ -1,0 +1,165 @@
+body{
+width: 100%;
+height: 100%;
+margin:0;
+padding:0;
+}
+.wrapper{
+float: left;
+width: auto;
+height: auto;	
+}
+.header{
+float: left;
+width:100%;
+height: auto;
+background:#55ffff;	
+}
+.logo{
+float: left;
+width: 20%;
+cursor: pointer;
+}
+.logo-cart{
+float: right;
+text-align: right; 
+width:80%;
+word-spacing:2px;	
+}
+.logo-cart a{
+text-decoration: none;	
+}
+.logo-cart a:hover{
+color:#ffaaff;
+}
+.menu{
+float: left;
+width:100%;
+background:#ff55ff;	
+padding: 10px;
+}
+.menu a{
+text-decoration: none;
+margin-right:10px;	
+}
+.menu a:hover{
+color:#6ef8ff;	
+}
+.page{
+float: left;
+width:100%;	
+}
+.left{
+float: left;
+width:20%;
+background:#55aaff;	
+}
+.right{
+float: left;
+width:80%;
+background:#ff4b79;	
+cursor: pointer;
+}
+.head{
+float: left;	
+text-align: center;
+font-weight: bold;	
+}
+.photo{
+float: left;
+text-align: center;	
+margin-bottom: 5px;
+}
+.left ul li a:hover{
+color: #59fffa;
+}
+.left ul li a{
+text-decoration: none;
+letter-spacing: 1px;
+}
+.left ul li{
+margin-bottom:1px;	
+}
+.photo img{
+margin-bottom:5px;
+margin-right:5px;	
+}
+.menu ul li{
+float: left;
+list-style:none;	
+}
+.dropdown:hover .submenu{
+	display: block;
+}
+.submenu{
+display: none;
+width:200px;
+position: absolute;
+background:#ffffff;
+padding: 0;
+margin: 0;
+opacity: 0.6;
+}
+.submenu li{
+font-size: 15px;
+float: left;
+text-align: left;
+width:95%;
+border-bottom:1px solid #000;
+margin-bottom:5px;
+padding: 5px;
+}
+.submenu li:last-child{
+padding-bottom:0;
+margin-bottom:0;
+border-bottom:0;	
+}
+.popup-wrap{
+display: none;
+position: fixed;
+float: left;
+width:100%;
+height:100%;
+top:0;
+left:0;
+background:rgba(0, 0, 0, 0.7)
+}
+.popup{
+width: 20%;
+text-align: center;
+margin: 25% auto 0 auto;
+background:#ffffff;	
+padding: 10px;
+}
+body:hover .popup-wrap{
+
+}
+.img-show{
+float:left;
+width:100%;
+height:600px;
+background: #ff00ff;
+background: url('MOBILE 2.jpg') no-repeat;
+background-size: cover;
+background-position: center;
+background-size: 100% 500px;
+overflow: hidden; 
+overflow: scroll;
+cursor: progress;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

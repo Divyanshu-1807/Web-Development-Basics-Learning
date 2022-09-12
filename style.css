@@ -1,0 +1,86 @@
+body{
+width:100%;
+height:100%;
+background:#000000;
+margin:0;
+padding:0;	
+}
+.wrapper{
+float: left;
+width:100%;
+height: auto;
+background:#d3d9e0;	
+}
+.header{
+float: left;
+width:100%;
+height:200px;	
+}
+.logo{
+float:left;
+width:20%;
+height:200px;	
+}
+.menu{
+float: left;
+width:80%;
+height:200px;
+background:#fedf6c;	
+}
+.slider{
+float: left;
+width:100%;
+height: auto;	
+}
+.form{
+float: left;
+width:100%;
+height:300px;	
+}
+.login{
+float: left;
+width:50%;
+height:300px;
+background:#120aff;		
+}
+.register{
+float: right;
+width:50%;
+height:300px;
+background:#ff007f;	
+}
+.footer{
+float: left;
+width:100%;
+height:200px;	
+}
+.social{
+float: left;
+width:20%;
+height:200px;
+background:#ffaaff;	
+}
+.address{
+float: left;
+width:20%;
+height:200px;
+background:#ffaaff;	
+}
+.quicklinks{
+float: left;
+width:20%;
+height:200px;
+background:#ffaaff;		
+}
+.recentnews{
+float: left;
+width:20%;
+height:200px;	
+background:#ffaaff;	
+}
+.contact{
+float: left;
+width:20%;
+height:200px;
+background:#ffaaff;	
+}
